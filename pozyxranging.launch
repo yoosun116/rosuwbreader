@@ -1,0 +1,5 @@
+<launch>
+    <node name="pozyxranging" output="screen" pkg="gtec_rosuwbreader" type="pozyxranging">
+        <param name="usbPort" value="/dev/ttyUSB0" type="str"></param>
+    </node>
+</launch>

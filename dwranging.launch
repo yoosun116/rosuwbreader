@@ -1,0 +1,5 @@
+<launch>
+    <node name="dwranging" output="screen" pkg="gtec_rosuwbreader" type="dwranging">
+        <param name="usbPort" value="/dev/ttyACM0" type="str"></param>
+    </node>
+</launch>
